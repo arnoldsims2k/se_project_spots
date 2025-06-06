@@ -2,9 +2,13 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 16;
+  padding: 60px 0;
   font-size: 16px;
   line-height: 100%;
   font-weight: 400;
-  color: #212121;
+  color: #212121b2;
+}
+
+.footer__text {
+  margin: 0;
 }
