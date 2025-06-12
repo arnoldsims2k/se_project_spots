@@ -44,7 +44,7 @@
   -webkit-box-orient: vertical;
 }
 
-.profile__edit-btn:hover {
+.profile__edit-btn {
   margin-top: auto;
   font-size: 16px;
   line-height: 100%;
@@ -54,9 +54,17 @@
   opacity: 70%;
   cursor: pointer;
   border: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
 }
 
-.profile__add-btn:hover {
+.profile__edit-btn:hover {
+  background-color: #fcf5e5;
+  opacity: 1;
+}
+
+.profile__add-btn {
   margin-left: auto;
   font-size: 16px;
   line-height: 100%;
@@ -67,6 +75,18 @@
   cursor: pointer;
   width: 157px;
   height: 52px;
+  border: none;
+  align-self: end;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__add-btn:hover {
+  background-color: #212121;
+  color: #fcf5e5;
+  opacity: 70%;
 }
 
 @media screen and (max-width: 627px) {

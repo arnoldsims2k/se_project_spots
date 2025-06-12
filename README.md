@@ -8,7 +8,7 @@
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This project was made with the emphasis on learning how to use Responsive and Adaptive Web Design. Its intended to teach and demonstrate how to build a webpage that displays correctly regardless of what screen size you're looking at from mobile phones to desktops and continue to display correctly.
 
 **Figma**
 
@@ -19,4 +19,8 @@ This project is made so all the elements are displayed correctly on popular scre
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 https://github.com/arnoldsims2k/se_project_spots.git
 
-Good luck and have fun!
+**Video for Spots**
+https://drive.google.com/file/d/1WWFT8TH8u-maN5PBzpD3hdAN-1v07PAg/view?usp=share_link
+
+**GitHub**
+https://github.com/arnoldsims2k/se_project_spots.git
