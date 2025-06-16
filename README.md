@@ -25,3 +25,6 @@ In the video, i discuss my experience and what technologies were used to make my
 
 **GitHub**
 https://github.com/arnoldsims2k/se_project_spots.git
+
+**Dployment**
+https://arnoldsims2k.github.io/se_project_spots/
