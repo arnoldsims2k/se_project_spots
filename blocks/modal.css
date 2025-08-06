@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
 }
 
 .modal_is-opened {
@@ -22,6 +23,7 @@
   background-color: #fff;
   padding: 32px 50px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .modal__close-btn {
@@ -30,10 +32,17 @@
   right: 50px;
   width: 40px;
   height: 40px;
+  border: none;
+  background-color: transparent;
+  background-image: url(/images/closeicon.png);
 }
 
 .modal__title {
   margin: 0 0 32px;
+  font: poppins;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
 }
 
 .modal__form {
@@ -49,6 +58,8 @@
   display: block;
   margin: 8px 0 0;
   width: 100%;
+  box-sizing: border-box;
+  height: 78px;
 }
 
 .modal__input::placeholder {
