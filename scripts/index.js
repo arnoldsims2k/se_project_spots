@@ -24,7 +24,7 @@ const linkInput = document.querySelector("#card-image-input"); // Use querySelec
 editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
-  editProfileModal.classList.add("modal_is-opened");
+  openModal.classList.add("modal_is-opened");
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
@@ -43,14 +43,14 @@ function handleEditProfileSubmit(evt) {
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
-  editProfileModal.classList.remove("modal_is-opened");
+  closeModal.classList.remove("modal_is-opened");
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  newPostModal.classList.remove("modal_is-opened");
+  closeModal.classList.remove("modal_is-opened");
   const imageLink = linkInput.value;
   console.log(imageLink);
   const newCaption = nameInput.value;
