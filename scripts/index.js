@@ -21,10 +21,18 @@ const addCardFormElement = newPostModal.querySelector(".modal__form");
 const nameInput = document.querySelector("#card-description-input"); // Use querySelector()
 const linkInput = document.querySelector("#card-image-input"); // Use querySelector()
 
-editProfileBtn.addEventListener("click", function () {
-  editProfileNameInput.value = profileNameEl.textContent;
-  editProfileDescriptionInput.value = profileDescriptionEl.textContent;
-  openModal.classList.add("modal_is-opened");
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+}
+
+editProfileBtn.addEventListener("click", () => {
+  // editProfileNameInput.value = profileNameEl.textContent;
+  // editProfileDescriptionInput.value = profileDescriptionEl.textContent;
+  openModal(editProfileModal);
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
@@ -60,14 +68,6 @@ function handleAddCardSubmit(evt) {
 // Create the submit listener.
 addCardFormElement.addEventListener("submit", handleAddCardSubmit);
 
-function openModal(modal) {
-  modal.classList.add("modal_opened");
-}
-
-function closeModal(modal) {
-  modal.classList.remove("modal_opened");
-}
-
-profileModalCloseButton.addEventListener("click", () => {
-  closeModal(profileEditModal);
+editProfileCloseBtn.addEventListener("click", () => {
+  closeModal(editProfileModal);
 });
