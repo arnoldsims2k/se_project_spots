@@ -28,4 +28,4 @@ https://github.com/arnoldsims2k/se_project_spots.git
 
 **Dployment**
 
-- [Deployment Link] (https://arnoldsims2k.github.io/se_project_spots/)
+- [Deployment Link](https://arnoldsims2k.github.io/se_project_spots/)

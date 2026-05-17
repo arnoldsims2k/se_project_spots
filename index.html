@@ -58,7 +58,10 @@
       </main>
 
       <footer class="footer">
-        <p class="footer__text">&copy; 2023 Spots</p>
+        <div>
+          class="page__section">
+          <p class="footer__text">&copy; 2023 Spots</p>
+        </div>
       </footer>
 
       <div class="modal" id="edit-profile-modal">
@@ -77,6 +80,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your name"
+                required
               />
             </label>
 
@@ -110,6 +114,7 @@
                 type="url"
                 class="modal__input"
                 placeholder="Place a link to the picture"
+                required
               />
             </label>
 
@@ -120,6 +125,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your caption"
+                required
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
@@ -131,7 +137,7 @@
         <div class="modal__image-container">
           <button
             type="button"
-            class="modal__close-btn modal__close_type_preview"
+            class="modal__close-btn modal__close-btn_type_preview"
             aria-label="Close modal"
           ></button>
           <img src="#" alt="" class="modal__image" />

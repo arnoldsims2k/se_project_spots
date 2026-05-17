@@ -124,7 +124,13 @@
 }
 
 .modal__caption {
-  color: white;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
+  background: #212121;
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px 8px;
 }
 
 @media screen and (max-width: 480px) {
@@ -148,6 +154,10 @@
   .modal {
     padding: 12px;
     gap: 24px;
+  }
+
+  .modal__caption {
+    font-size: 16px;
   }
 }
 
